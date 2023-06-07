@@ -4,10 +4,12 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#399AC2',
-          dark: '#1C4C6A',
-          dark2: '#26476C',
-          focus: '#348CB0'
+          DEFAULT: '#84907C',
+          dark: '#4D5647',
+          bg: '#838F7B',
+          light: '#566D59CC',
+          dark2: '#4D5647',
+          focus: ''
         },
         mygreen: {
           DEFAULT: '#70BC98',
