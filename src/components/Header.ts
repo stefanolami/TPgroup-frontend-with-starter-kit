@@ -26,18 +26,18 @@ export class Header extends TailwindElement(style) {
 
             <!-- TABLET / DESKTOP HEADER -->
 
-            <div class="hidden ${classMap({'md:hidden': this.withImg == true, 'md:flex': this.withImg == false})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-3 md:pb-4 xl:pt-3 xl:pb-7">
+            <div class="hidden ${classMap({'md:hidden': this.withImg == true, 'md:flex': this.withImg == false})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-3 md:pb-4 xl:pt-5 xl:pb-7">
                 <a class="xl:hidden ml-7" href="./home.html">
                     <img class="w-[170px] xl:hidden" src="/images/icons/T&Pgroup-logo.svg" alt="T&P Group logo">
                 </a>
                 <a class="hidden xl:block ml-[4%]" href="./home.html">
-                    <img class="w-[145px]" src="/images/icons/T&Pgroup-logo-desktop.svg" alt="T&P Group logo">             
+                    <img class="w-[126px]" src="/images/icons/T&Pgroup-logo-desktop.svg" alt="T&P Group logo">             
                 </a>
-                <nav id="header-nav" class="flex flex-row justify-around xl:justify-center items-center w-[60%] mr-4 h-full font-jose-400-it text-base text-center">    
-                    <a class="desktop-header-nav-items" href="./welcome.html">Welcome</a>
-                    <a class="desktop-header-nav-items" href="./our-pillars.html">Our Pillars</a>
-                    <a class="desktop-header-nav-items" href="./our-team.html">Our team</a>
-                    <a class="desktop-header-nav-items" href="./contact.html">Contact</a>
+                <nav id="header-nav" class="flex flex-row justify-around xl:justify-center items-center w-[60%] xl:w-2/4 mr-4 h-full font-jose-400-it text-base text-center">    
+                    <a class="xl:border-r border-black xl:w-1/4" href="./welcome.html">Welcome</a>
+                    <a class="xl:border-r border-black xl:w-1/4" href="./our-pillars.html">Our Pillars</a>
+                    <a class="xl:border-r border-black xl:w-1/4" href="./our-team.html">Our team</a>
+                    <a class="xl:w-1/4" href="./contact.html">Contact</a>
                 </nav>
             </div>
 
@@ -46,14 +46,14 @@ export class Header extends TailwindElement(style) {
 
             <div class="hidden ${classMap({'md:hidden': this.withImg == false, 'md:flex': this.withImg == true})}">
                 <div class="w-full">
-                    <a class="block w-[140px] mx-auto mt-12" href="./home.html">
+                    <a class="block w-[140px] xl:w-[212px] mx-auto mt-12" href="./home.html">
                         <img class="w-full" src="/images/icons/T&Pgroup-logo-desktop.svg" alt="T&P Group logo">
                     </a>
-                    <nav id="header-nav" class="flex flex-row justify-center items-center font-jose-400-it text-base text-center text-black mt-10">    
-                        <a class="desktop-header-nav-items px-4 border-r border-r-black" href="./welcome.html">Welcome</a>
-                        <a class="desktop-header-nav-items px-4 border-r border-black" href="./our-pillars.html">Our Pillars</a>
-                        <a class="desktop-header-nav-items px-4 border-r border-black" href="./our-team.html">Our Team</a>
-                        <a class="desktop-header-nav-items px-4" href="./contact.html">Contact</a>
+                    <nav id="header-nav" class="flex flex-row justify-center items-center font-jose-400-it text-base text-center text-black mt-10 xl:mt-24">    
+                        <a class="px-4 xl:px-9 border-r border-r-black" href="./welcome.html">Welcome</a>
+                        <a class="px-4 xl:px-9 border-r border-black" href="./our-pillars.html">Our Pillars</a>
+                        <a class="px-4 xl:px-9 border-r border-black" href="./our-team.html">Our Team</a>
+                        <a class="px-4 xl:px-9" href="./contact.html">Contact</a>
                     </nav>
                 </div>
             </div>

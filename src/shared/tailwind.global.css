@@ -12,8 +12,6 @@
         @apply border-2 border-primary focus:border-primary-dark2 bg-primary/[.06] focus:bg-primary-dark2/[.06]  font-jose-600-it text-[9px] md:text-sm leading-[9px] xl:leading-4 pl-[10px] md:pl-5 my-1 md:my-[6px]
     }
 
-    
-
     .desktop-footer-headings {
         @apply font-unna-400-it text-[27px]
     }
