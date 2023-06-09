@@ -44,7 +44,7 @@ export class Header extends TailwindElement(style) {
 
             <!-- TABLET / DESKTOP HEADER WITH PICTURE -->
 
-            <div class="hidden ${classMap({'md:hidden': this.withImg == false, 'md:flex': this.withImg == true})}">
+            <div class="hidden ${classMap({'md:hidden': this.withImg == false, 'md:flex': this.withImg == true})} select-none">
                 <div class="w-full">
                     <a class="block w-[140px] xl:w-[212px] mx-auto mt-12" href="./home.html">
                         <img class="w-full" src="/images/icons/T&Pgroup-logo-desktop.svg" alt="T&P Group logo">

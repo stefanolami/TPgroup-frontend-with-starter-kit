@@ -41,17 +41,17 @@ export class Contact extends TailwindElement(style) {
                     <div class="flex flex-col justify-center items-center my-4">
                         <object class="w-10 h-10 my-1" data="../../images/icons/location.svg" type=""></object>
                         <h6 class="font-unna-700  text-[13px] my-1">BRUSSELS HEAD OFFICE</h6>
-                        <p class="font-jose-400 text-[9px] my-[2px]">Sablon Tower, Rue Joseph Stevens 7 <br/>1000 Bruxelles Belgium</p>
+                        <p class="font-jose-400 text-[9px] my-[2px]">Rue de la Loi 81 A </br>1040 Brussels – Belgium</p>
                     </div>
                     <div class="flex flex-col justify-center items-center my-4">
                         <object class="w-10 h-10 my-1" data="../../images/icons/email.svg" type=""></object>
                         <h6 class="font-unna-700  text-[13px] my-1">EMAIL US</h6>
-                        <p class="font-jose-400 text-[9px] my-[2px]">info@fundingontap.com</p>
+                        <p class="font-jose-400 text-[9px] my-[2px]">info@timeandplaceconsulting.com</p>
                     </div>
                     <div class="flex flex-col justify-center items-center my-4">
                         <object class="w-10 h-10 my-1" data="../../images/icons/phone.svg" type=""></object>
                         <h6 class="font-unna-700  text-[13px] my-1">CALL US</h6>
-                        <p class="font-jose-400 text-[9px] my-[2px]">+32 (0) 2 401 61 31</p>
+                        <p class="font-jose-400 text-[9px] my-[2px]">+32 (0) 485 38 22 21</p>
                     </div>
                 </div>
             </div>
@@ -79,22 +79,22 @@ export class Contact extends TailwindElement(style) {
                         <div class="flex flex-col justify-center items-center my-4">
                             <object class="w-[40px] xl:w-[60px] my-1" data="../../images/icons/location.svg" type=""></object>
                             <h6 class="font-unna-700 text-[18px] xl:text-[21px] my-1">BRUSSELS HEAD OFFICE</h6>
-                            <p class="font-jose-400 text-[14px] leading-4 my-[2px]">Sablon Tower, Rue Joseph Stevens 7 <br/>1000 Bruxelles Belgium</p>
+                            <p class="font-jose-400 text-[14px] leading-4 my-[2px]">Rue de la Loi 81 A </br>1040 Brussels – Belgium</p>
                         </div>
                         <div class="flex flex-col justify-center items-center my-4">
                             <object class="w-[40px] xl:w-[60px] my-1" data="../../images/icons/email.svg" type=""></object>
                             <h6 class="font-unna-700 text-[18px] xl:text-[21px] my-1">EMAIL US</h6>
-                            <p class="font-jose-400 text-[14px] leading-4 my-[2px]">info@fundingontap.com</p>
+                            <p class="font-jose-400 text-[14px] leading-4 my-[2px]">info@timeandplaceconsulting.com</p>
                         </div>
                         <div class="flex flex-col justify-center items-center my-4">
                             <object class="w-[40px] xl:w-[60px] my-1" data="../../images/icons/phone.svg" type=""></object>
                             <h6 class="font-unna-700 text-[18px] xl:text-[21px] my-1">CALL US</h6>
-                            <p class="font-jose-400 text-[14px] leading-4 my-[2px]">+32 (0) 2 401 61 31</p>
+                            <p class="font-jose-400 text-[14px] leading-4 my-[2px]">+32 (0) 485 38 22 21</p>
                         </div>
                     </div>
                 </div>
                 <h4 class="font-unna-700-it text-[30px] text-center my-14">Follow us on social media</h4>
-                <div class="flex flex-row justify-between w-[70%] xl:w-[50%] m-auto mt-11 mb-40">
+                <div class="flex flex-row justify-between w-[70%] xl:w-[50%] m-auto mt-11 mb-10">
                     <a class="flex flex-col justify-center items-center" href="">
                         <object class="w-[40px] xl:w-[60px]"  data="../../images/icons/youtube.svg"></object>
                         <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Youtube</p>
