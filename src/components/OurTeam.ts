@@ -1,6 +1,5 @@
 import { html } from "lit";
 import { customElement, state } from "lit/decorators.js";
-import { classMap } from 'lit/directives/class-map.js';
 import { TailwindElement } from "../shared/tailwind.element";
 
 import style from "../shared/tailwind.global.css";
@@ -14,9 +13,8 @@ export class OurTeam extends TailwindElement(style) {
     render() {
         return html`
             <main>
-                
-                <h1 class="font-unna-700 text-[20px] md:text-[39px] xl:text-[50px] text-center mb-6">WHO IS WHO</h1>
-                <div class="flex flex-row flex-wrap items-center justify-center gap-2 text-center mb-20 text-white mx-auto">
+                <h1 class="font-unna-700 text-[20px] md:text-[39px] xl:text-[50px] text-center mb-6 md:mb-14 xl:mb-20">WHO IS WHO</h1>
+                <div class="flex flex-row flex-wrap items-center justify-center gap-2 md:gap-4 xl:gap-6 text-center mb-20 md:max-w-[800px] xl:max-w-[1350px] text-white mx-auto">
                     <a href="">
                         <div class="our-team-photo-div">
                             <img class="our-team-photo" src="/images/our-team/glenn.png" alt="Glenn">
@@ -98,26 +96,8 @@ export class OurTeam extends TailwindElement(style) {
                             </div>
                         </div>
                     </a>
-                </div>
-                
-
-                
-
-
-
-
-                
+                </div>               
             </main>
         `;
-    }
-
-    activateLogo(str: string) {
-        this.activeLogo = str
-        console.log('activating')
-    }
-
-    resetLogo() {
-        this.activeLogo = ''
-        console.log('resetting')
     }
 }
