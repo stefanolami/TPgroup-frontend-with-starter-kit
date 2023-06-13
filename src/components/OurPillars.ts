@@ -53,15 +53,14 @@ export class OurPillars extends TailwindElement(style) {
                     <div @click="${() => this.activateLogo('institute')}" class="flex flex-col items-center justify-center">
                         <img class="${classMap({'hidden': this.activeLogo == 'institute', 'block': this.activeLogo !== 'institute'})} cursor-pointer md:w-[145px] md:h-[132px] " src="/images/our-pillars/institute.svg" alt="T&P institute logo">
                         <div class="${classMap({'hidden': this.activeLogo !== 'institute', 'flex': this.activeLogo == 'institute'})} flex-col items-center justify-center">
-                            <img class="mb-2 md:w-[196px] md:h-[156px]" src="/images/landing-page/T&Pinstitute-logo.svg" alt="T&P institute logo">
+                            <img class="mb-2 md:w-[132px] md:h-[106px]" src="/images/landing-page/T&Pinstitute-logo.svg" alt="T&P institute logo">
                             <p class="mb-4 text-center font-jose-400 text-[15px] leading-[17px] md:text-[17px] md:leading-[21px]" >Our in-house media production branch </br>can be put at your service to create movies, </br>concerts and other cultural productions.
                             </p>
                             <a href="" target="blank" class="flex items-center justify-center pt-1 w-[112px] md:w-[170px] h-[34px] md:h-[52px] border-2 rounded-3xl border-[#2F4C34] text-[#2F4C34] hover:text-white hover:bg-[#2F4C34] font-jose-600 text-[12px] md:text-[16px] leading-[15px] md:leading-[21px]">VISIT WEBSITE</a>
                         </div>
                     </div>
                 </div>
-
-            </main>           
+            </main>
         `;
     }
 
